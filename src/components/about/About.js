@@ -13,8 +13,8 @@ import Carousel from './Carousel'
 function About() {
 
   const [activeOption, setActiveOption] = useState('brief');
-  const [activeClass] = useState('flex-1 bg-transparent border-[1px] border-[color:var(--color-primary)] border-solid flex-col rounded-[1rem] p-[1.5rem] items-center flex grow cursor-pointer transition w-[70%] sm:w-fit')
-  const [notActiveClass] = useState('flex-1 bg-[color:var(--color-bg-variant)] border-[1px] border-transparent border-solid flex-col rounded-[1rem] p-[1.5rem] items-center flex grow hover:bg-transparent hover:border-[color:var(--color-primary-variant)] cursor-pointer transition w-[70%] sm:w-fit')
+  const [activeClass] = useState('lg:min-w-[30%] flex-1 bg-transparent border-[1px] border-[color:var(--color-primary)] border-solid flex-col rounded-[1rem] p-[1.5rem] items-center flex grow cursor-pointer transition w-[70%] sm:w-fit')
+  const [notActiveClass] = useState('lg:min-w-[30%] flex-1 bg-[color:var(--color-bg-variant)] border-[1px] border-transparent border-solid flex-col rounded-[1rem] p-[1.5rem] items-center flex grow hover:bg-transparent hover:border-[color:var(--color-primary-variant)] cursor-pointer transition w-[70%] sm:w-fit')
   
   const [showZoomTOEIC, setShowZoomTOEIC] = useState(false);
   const [showZoomPoint, setShowZoomPoint] = useState(false);
