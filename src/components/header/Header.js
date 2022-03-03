@@ -24,7 +24,7 @@ function Header({toggleChangeLanguage, language}) {
   return (
     <header
       id="header"
-      className=" lg:w-[length:var(--container-width-lg)] md:w-[length:var(--container-width-md)] sm:w-[length:var(--container-width-sm)] w-[length:var(--container-width-sm)] lg:h-screen md:h-[82vh] sm:h-screen h-screen text-center pt-[7rem] overflow-hidden mx-auto relative" >
+      className=" lg:w-[length:var(--container-width-lg)] md:w-[length:var(--container-width-md)] sm:w-[length:var(--container-width-sm)] w-[length:var(--container-width-sm)] h-screen text-center pt-[7rem] overflow-hidden mx-auto relative" >
       {language === 'English' &&
       <>
         <button onClick={handleToggleMode} className="absolute top-0 left-0 mt-[1rem] dark:text-[color:var(--color-bg-variant)]">

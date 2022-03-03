@@ -7,6 +7,7 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 
+
 function App() {
   
   const [language, setLanguage] = useState('English')
@@ -22,7 +23,9 @@ function App() {
 
   useEffect(() => {
     const userAgent = navigator.userAgent;
-    if(userAgent && (userAgent.toLocaleLowerCase().match(/chrome|chromium|crios/i) || userAgent.toLocaleLowerCase().match(/edg/i))){
+    const screenWidth = window.screen.width;
+    
+    if(screenWidth > 1024 && userAgent && (userAgent.toLocaleLowerCase().match(/chrome|chromium|crios/i) || userAgent.toLocaleLowerCase().match(/edg/i))){
       document.querySelector('html').style.fontSize = '80%';
     }
   }, [])
