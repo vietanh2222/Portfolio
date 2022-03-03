@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import "./App.css";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -21,13 +21,6 @@ function App() {
     }
   }
 
-  useEffect(() => {
-    const fontSize = Number(window.getComputedStyle(document.body).getPropertyValue('font-size').match(/\d+/)[0])
-    if(fontSize > 16){
-      document.querySelector('html').style.fontSize = '16px';
-    }
-  }, [])
-  
   return (
     <div 
       className={language === 'English' ? classForEnlish : classForVietNamese}
