@@ -94,7 +94,7 @@ function About({language}) {
                   <AiFillHome className='text-[1.5rem] text-white dark:text-[color:var(--color-light)]'/> 
                   <p><strong>Address</strong>: Ha Noi, Viet Nam</p>
                 </div>
-                <p>I graduated from Banking Academy, but I'm very interested in coding when learning about that. Currently, I am studying international developer at FPT APTECH center. In addition, through self-study, I honed my skills in front-end web development.</p>
+                <p>I graduated from Banking Academy, but I'm very interested in coding when learning about that. Currently, I am studying international developer at FPT APTECH center. In addition, through self-study, I honed my skills in front-end web developer.</p>
                 <p> I'm seeking to have an opportunity that matches my skills to improve my realistic knowledge and experience of technical and communication skills.</p>
               </div>
             }
