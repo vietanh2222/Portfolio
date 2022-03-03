@@ -915,7 +915,7 @@ function Portfolio({ language }) {
               </div>
               <h1 className='text-[2rem] text-white text-center dark:text-[color:var(--color-primary)]'>OCTAVIAN</h1>
               <p className='text-center'> Trang LandingPage đầu tiên của tôi khi học sử dụng Photoshop và Figma !</p>
-              <h2 className='text-[1.5rem] text-[color:var(--color-primary)] text-left'>Features</h2>
+              <h2 className='text-[1.5rem] text-[color:var(--color-primary)] text-left'>Chức năng</h2>
 
               <div className='flex gap-[1rem] items-center' >
                 <div>
