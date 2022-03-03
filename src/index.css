@@ -23,6 +23,7 @@ html{
     scroll-behavior: smooth;
     overscroll-behavior: none;
     scrollbar-width: none;
+    
 }
 
 
@@ -30,5 +31,4 @@ html{
 ::-webkit-scrollbar {
     display: none;
 }
-
 

@@ -50,23 +50,7 @@ function Nav() {
   }, [scrollHeight])
     
   return (
-    <nav className='
-    flex 
-    fixed 
-    bottom-[2rem] 
-    left-[50%] 
-    translate-x-[-50%]
-    gap-[2rem]
-    w-max
-    bg-[#000000]/25
-    sm:py-[0.8rem]
-    sm:px-[1.6rem]
-    py-[0.6rem]
-    px-[1.2rem]
-    z-10
-    rounded-[3rem]
-    backdrop-blur-lg
-    '>
+    <nav className=' flex  fixed  bottom-[2rem]  left-[50%]  translate-x-[-50%] gap-[2rem] w-max bg-[#000000]/25 sm:py-[0.8rem] sm:px-[1.6rem] py-[0.6rem] px-[1.2rem] z-10 rounded-[3rem] backdrop-blur-lg '>
       <a href="#header"
         className={activeNav === '#header' ?  classWhenActive : classWhenNotActive}
         onClick={() => setActiveNav('#header')}

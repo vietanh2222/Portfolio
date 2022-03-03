@@ -4,19 +4,7 @@ import { BsGithub, BsFacebook } from 'react-icons/bs';
 
 function HeaderSocial() {
   return (
-    <div className='
-    lg:flex 
-    md:flex 
-    sm:hidden 
-    hidden 
-    flex-col 
-    gap-y-[1rem] 
-    flex-1 
-    absolute 
-    bottom-[3rem] 
-    left-0 
-    animate-fadeOutSocial
-    '>
+    <div className=' lg:flex  md:flex  sm:hidden  hidden  flex-col  gap-y-[1rem]  flex-1  absolute  bottom-[3rem]  left-0  animate-fadeOutSocial '>
         <a 
         href='https://linkedin.com' 
         target="_blank" 

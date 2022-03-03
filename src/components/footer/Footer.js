@@ -3,7 +3,7 @@ import { ImLinkedin2 } from 'react-icons/im'
 import { FaFacebookF } from 'react-icons/fa'
 import { FiGithub } from 'react-icons/fi'
 
-function Footer() {
+function Footer({language}) {
   return (
     <footer 
       className='
@@ -15,6 +15,8 @@ function Footer() {
       pb-[7rem]
       '
     >
+      {language === 'English' && 
+      <>
       <a href="#header" className='text-[color:var(--color-bg)] text-[2rem] mb-[2rem] inline-block text hover:text-white'>Nguyen Viet Anh</a>
       <ul className='flex gap-[1rem] justify-center mb-[3rem]'>
         <li><a href="#header" className='text-[color:var(--color-bg)] text-[1.1rem] hover:text-white'>Home</a></li>
@@ -27,18 +29,7 @@ function Footer() {
         href="https://www.facebook.com/profile.php?id=100010379702934"
         target="_blank"
         rel="noreferrer"
-        className='
-        bg-[color:var(--color-bg)]
-        p-[0.5rem]
-        rounded-[0.5rem]
-        border-[1px]
-        border-[solid]
-        border-transparent
-        hover:bg-transparent
-        hover:text-[color:var(--color-bg)]
-        hover:border-[color:var(--color-bg)]
-        transition
-        '
+        className=' bg-[color:var(--color-bg)] p-[0.5rem] rounded-[0.5rem] border-[1px] border-[solid] border-transparent hover:bg-transparent hover:text-[color:var(--color-bg)] hover:border-[color:var(--color-bg)] transition '
         >
           <FaFacebookF className='text-[1.1rem]'/>
         </a>
@@ -46,18 +37,7 @@ function Footer() {
         href="https://github.com/vietanh2222" 
         target="_blank" 
         rel="noreferrer"
-        className='
-        bg-[color:var(--color-bg)]
-        p-[0.5rem]
-        rounded-[0.5rem]
-        border-[1px]
-        border-[solid]
-        border-transparent
-        hover:bg-transparent
-        hover:text-[color:var(--color-bg)]
-        hover:border-[color:var(--color-bg)]
-        transition
-        '
+        className=' bg-[color:var(--color-bg)] p-[0.5rem] rounded-[0.5rem] border-[1px] border-[solid] border-transparent hover:bg-transparent hover:text-[color:var(--color-bg)] hover:border-[color:var(--color-bg)] transition '
         >
           <FiGithub className='text-[1.1rem]'/>
         </a>
@@ -65,18 +45,7 @@ function Footer() {
         href="https://github.com/vietanh2222" 
         target="_blank" 
         rel="noreferrer"
-        className='
-        bg-[color:var(--color-bg)]
-        p-[0.5rem]
-        rounded-[0.5rem]
-        border-[1px]
-        border-[solid]
-        border-transparent
-        hover:bg-transparent
-        hover:text-[color:var(--color-bg)]
-        hover:border-[color:var(--color-bg)]
-        transition
-        '
+        className=' bg-[color:var(--color-bg)] p-[0.5rem] rounded-[0.5rem] border-[1px] border-[solid] border-transparent hover:bg-transparent hover:text-[color:var(--color-bg)] hover:border-[color:var(--color-bg)] transition '
         >
           <ImLinkedin2 className='text-[1.1rem]'/>
         </a>
@@ -86,6 +55,48 @@ function Footer() {
           className='mb-[4rem] text-[color:var(--color-bg)] text-[1rem]'
         >&copy; Nguyen Viet Anh. All rights reserved.</small>
       </div>
+      </>}
+      {language === 'VietNamese' && 
+      <>
+      <a href="#header" className='text-[color:var(--color-bg)] text-[2rem] mb-[2rem] inline-block text hover:text-white'>Nguyễn Việt Anh</a>
+      <ul className='flex gap-[1rem] justify-center mb-[3rem]'>
+        <li><a href="#header" className='text-[color:var(--color-bg)] text-[1.1rem] hover:text-white'>Trang chủ</a></li>
+        <li><a href="#about" className='text-[color:var(--color-bg)] text-[1.1rem] hover:text-white'>Giới thiệu</a></li>
+        <li><a href="#portfolio" className='text-[color:var(--color-bg)] text-[1.1rem] hover:text-white'>Danh mục</a></li>
+        <li><a href="#contact" className='text-[color:var(--color-bg)] text-[1.1rem] hover:text-white'>Liên hệ</a></li>
+      </ul>
+      <div className='flex gap-[1rem] justify-center mb-[3rem]'>
+        <a 
+        href="https://www.facebook.com/profile.php?id=100010379702934"
+        target="_blank"
+        rel="noreferrer"
+        className=' bg-[color:var(--color-bg)] p-[0.5rem] rounded-[0.5rem] border-[1px] border-[solid] border-transparent hover:bg-transparent hover:text-[color:var(--color-bg)] hover:border-[color:var(--color-bg)] transition '
+        >
+          <FaFacebookF className='text-[1.1rem]'/>
+        </a>
+        <a 
+        href="https://github.com/vietanh2222" 
+        target="_blank" 
+        rel="noreferrer"
+        className=' bg-[color:var(--color-bg)] p-[0.5rem] rounded-[0.5rem] border-[1px] border-[solid] border-transparent hover:bg-transparent hover:text-[color:var(--color-bg)] hover:border-[color:var(--color-bg)] transition '
+        >
+          <FiGithub className='text-[1.1rem]'/>
+        </a>
+        <a 
+        href="https://github.com/vietanh2222" 
+        target="_blank" 
+        rel="noreferrer"
+        className=' bg-[color:var(--color-bg)] p-[0.5rem] rounded-[0.5rem] border-[1px] border-[solid] border-transparent hover:bg-transparent hover:text-[color:var(--color-bg)] hover:border-[color:var(--color-bg)] transition '
+        >
+          <ImLinkedin2 className='text-[1.1rem]'/>
+        </a>
+      </div>
+      <div>
+        <small
+          className='mb-[4rem] text-[color:var(--color-bg)] text-[1rem]'
+        >&copy; Nguyễn Việt Anh. (84) 039 655 6211.</small>
+      </div>
+      </>}
     </footer>
   )
 }
