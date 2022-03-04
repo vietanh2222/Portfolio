@@ -6,7 +6,7 @@ function HeaderSocial() {
   return (
     <div className=' lg:flex  md:flex  sm:hidden  hidden  flex-col  gap-y-[1rem]  flex-1  absolute  bottom-[3rem]  left-0  animate-fadeOutSocial '>
         <a 
-        href='https://linkedin.com' 
+        href='https://www.linkedin.com/in/viet-anh-nguyen-0a55b7233/' 
         target="_blank" 
         rel="noreferrer"
         className='text-[color:var(--color-primary)] text-[1.6rem] hover:text-white '

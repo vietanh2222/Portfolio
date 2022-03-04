@@ -83,7 +83,7 @@ function Footer({language}) {
           <FiGithub className='text-[1.1rem]'/>
         </a>
         <a 
-        href="https://github.com/vietanh2222" 
+        href="https://www.linkedin.com/in/viet-anh-nguyen-0a55b7233/" 
         target="_blank" 
         rel="noreferrer"
         className=' bg-[color:var(--color-bg)] p-[0.5rem] rounded-[0.5rem] border-[1px] border-[solid] border-transparent hover:bg-transparent hover:text-[color:var(--color-bg)] hover:border-[color:var(--color-bg)] transition '
