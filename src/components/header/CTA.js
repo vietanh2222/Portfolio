@@ -1,6 +1,6 @@
 import React from 'react'
-import NVA from '../../assets/images/NguyenVietAnh - Fresher Front-end Web Developer.pdf'
-import NVAV from '../../assets/images/NguyễnViệtAnh - Fresher Front-end Web Developer.pdf'
+import NVA from '../../assets/images/NguyenVietAnh - Front-end Web Developer.pdf'
+import NVAV from '../../assets/images/NguyễnViệtAnh - Front-end Web Developer.pdf'
 
 
 function CTA({language}) {

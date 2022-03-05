@@ -188,7 +188,7 @@ function Portfolio({ language }) {
                 <MdClose className='text-[1.5rem] '/>
               </div>
               <h1 className='text-[2rem] text-white text-center dark:text-[color:var(--color-primary)]'>TASHA STORE</h1>
-              <h2 className='text-[1.5rem] text-[color:var(--color-primary)] text-left'>Features</h2>
+              <h2 className='text-[1.5rem] text-[color:var(--color-primary)] text-left'>My work in this project</h2>
               <div className='flex gap-[1rem] items-center' >
                 <div>
                   <MdDone className='text-[1.5rem] ' /> 
@@ -205,7 +205,7 @@ function Portfolio({ language }) {
                 <div>
                   <MdDone className='text-[1.5rem] ' /> 
                 </div>
-                <p>Sort product by price range.</p>
+                <p>Filter product by price range.</p>
               </div>
               <div className='flex gap-[1rem] items-center' >
                 <div>
@@ -651,7 +651,7 @@ function Portfolio({ language }) {
                 <MdClose className='text-[1.5rem] '/>
               </div>
               <h1 className='text-[2rem] text-white text-center dark:text-[color:var(--color-primary)]'>TASHA STORE</h1>
-              <h2 className='text-[1.5rem] text-[color:var(--color-primary)] text-left'>Chức năng</h2>
+              <h2 className='text-[1.5rem] text-[color:var(--color-primary)] text-left'>Công việc của tôi trong dự án</h2>
               <div className='flex gap-[1rem] items-center' >
                 <div>
                   <MdDone className='text-[1.5rem] ' /> 
