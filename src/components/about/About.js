@@ -94,8 +94,7 @@ function About({language}) {
                   <AiFillHome className='text-[1.5rem] text-white dark:text-[color:var(--color-light)]'/> 
                   <p><strong>Address</strong>: Ha Noi, Viet Nam</p>
                 </div>
-                <p>I graduated from Banking Academy, but I'm very interested in Front-end Web when learning about that. After studying at FPT APTECH center and F8 <a href='https://fullstack.edu.vn/' target="_blank" rel='noreferrer'>( https://fullstack.edu.vn/ )</a>, I learned some skills in that area.</p>
-                <p> I'm seeking to have an opportunity that matches my skills to improve my realistic knowledge and experience of Front-end Web and contribute to the development of your company.</p>
+                <p>I am a hard worker with a quick learning ability. My ambition is to apply what I've learned, to improve my realistic knowledge and experience of front-end web development, and to contribute to the growth of your company.</p>
               </div>
             }
             {activeOption === 'skills' && 
@@ -314,11 +313,9 @@ function About({language}) {
                   <AiFillHome className='text-[1.5rem] text-white dark:text-[color:var(--color-light)]'/> 
                   <p><strong>Địa chỉ</strong>: Hà Nội, Việt Nam</p>
                 </div>
-                <p> Tốt nghiệp Học Viện Ngân hàng nhưng tôi yêu thích Front-end Web sau một thời gian tìm hiểu. Qua quá trình học tại trung tâm FPT APTECH và F8 <a href='https://fullstack.edu.vn/' target="_blank" rel='noreferrer'>( https://fullstack.edu.vn/ )</a>, tôi đã học được một số kỹ năng về Frontend Web.
+                <p> Tôi là một người chăm chỉ với khả năng học hỏi nhanh chóng. Mong muốn của tôi là được áp dụng những kiến thức đã học đạt được kinh nghiệm, kiến thức thực tế về phát triển Front-end Web và đóng góp vào sự phát triển của công ty.
                 </p>
-                <p>
-                  Tôi mong muốn tìm kiếm công việc phù hợp với kỹ năng của mình nhằm nâng cao kiến thức, kinh nghiệm thực tế về Frontend Web và đóng góp vào sự phát triển của công ty.
-                </p>
+               
               </div>
             }
             {activeOption === 'skills' && 
